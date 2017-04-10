@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud"
+    tools:context="com.example.cristianverdes.thankyoucard.MainActivity">
+
+    <ImageView
+        android:id="@+id/awesome_google_logo"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:rotation="-10"
+        android:src="@drawable/awesome_google_logo" />
+
+    <TextView
+        android:id="@+id/thank_you_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/for_text"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="14dp"
+        android:text="@string/thank_you" />
+
+    <TextView
+        android:id="@+id/for_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="monospace"
+        android:padding="14dp"
+        android:text="@string/for_text" />
+
+    <TextView
+        android:id="@+id/everything_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/for_text"
+        android:fontFamily="casual"
+        android:padding="14dp"
+        android:text="@string/everything" />
+
+    <ImageView
+        android:id="@+id/awesome_udacity_logo"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="64dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp"
+        android:rotation="10"
+        android:src="@drawable/awesome_udacity_logo" />
+
+    <ImageView
+        android:id="@+id/cool_android"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/cool_android"/>
+
+</RelativeLayout>
